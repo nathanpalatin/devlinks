@@ -33,7 +33,8 @@ body {
   border-radius: 50%;
 }
 
-.nickname {
+a.nickname {
+  text-decoration: none;
   display: block;
   margin: 20px;
   text-align: center;
