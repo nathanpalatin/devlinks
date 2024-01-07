@@ -1,0 +1,94 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('./assets/bg-desktop.jpg');
+  background-size: cover;
+  color: #f1f1f1;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  padding-top: 100px;
+  justify-content: center;
+  align-items: center
+}
+
+.box-content {
+  margin-top: 100px;
+  background: #000000aa;
+  width: 340px;
+}
+
+.profileimg {
+  display: block;
+  margin: auto;
+
+  width: 120px;
+  border: 4px teal solid;
+  border-radius: 50%;
+}
+
+.nickname {
+  display: block;
+  margin: 20px;
+  text-align: center;
+  color: #e1e1e1;
+}
+
+button.button-link {
+  width: 340px;
+  display: block;
+  cursor: pointer;
+  padding: 12px;
+  opacity: 0.8;
+  background-color: #66666662;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 1px solid #f1f1f1;
+}
+
+button.button-link:hover {
+  opacity: 1;
+  transition: 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+
+.button-link h1 {
+  color: #e1e1e1;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.social-icons {
+
+  display: flex;
+  padding: 20px;
+
+  font-size: 24px;
+}
+
+.social-icons a {
+  color: #e1e1e1c0;
+}
+
+.social-icons a:hover {
+  color: #e1e1e1;
+  transition: 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+footer.copy {
+  text-align: center;
+  align-items: center;
+  color: #e1e1e1c0;
+  font-size: 14px;
+}
+
+footer.copy a {
+  color: #e1e1e1c0;
+}
