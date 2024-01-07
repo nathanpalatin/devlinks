@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
 
 body {
@@ -42,23 +43,33 @@ body.light {
 
 button.btn-toggle {
   margin: 0 auto;
-  font-size: 46px;
   display: block;
-  background: transparent;
-  border: none;
+  cursor: pointer;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  background: #e1e1e1;
+  border: 1px solid #1E1E1E;
   color: #e1e1e1;
+
+  margin-bottom: 20px;
 }
 
-.light btn-toggle {
+.light button.btn-toggle {
   color: #1E1E1E;
 }
+
 
 a.nickname {
   text-decoration: none;
   display: block;
   margin: 20px;
+  color: #e1e1e1;
   text-align: center;
+}
 
+.light a.nickname {
+  color: #1E1E1E;
 }
 
 button.button-link {
@@ -73,9 +84,13 @@ button.button-link {
   border: 1px solid #f1f1f1;
 }
 
-.light .button-link {
+.light button.button-link {
   background-color: #e1e1e182 !important;
   border: 1px solid #1e1e1e50;
+}
+
+.light .button-link h1 {
+  color: #1E1E1E;
 }
 
 button.button-link:hover {
@@ -85,8 +100,8 @@ button.button-link:hover {
 }
 
 .button-link h1 {
-
-  font-size: 16px;
+  color: #e1e1e1;
+  font-size: .9rem;
   font-weight: 400;
 }
 
@@ -95,16 +110,26 @@ button.button-link:hover {
   display: flex;
   justify-content: center;
   padding: 24px 0;
-
-  font-size: 24px;
+  gap: 1.4rem;
+  font-size: 1.7rem;
 }
 
 .social-icons a {
   color: #e1e1e1c0;
 }
 
+.light .social-icons a {
+  color: #1e1e1e90;
+}
+
+
 .social-icons a:hover {
   color: #e1e1e1;
+  transition: 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.light .social-icons a:hover {
+  color: #1e1e1e;
   transition: 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
@@ -112,9 +137,20 @@ footer.copy {
   text-align: center;
   align-items: center;
   color: #e1e1e1c0;
-  font-size: 14px;
+  font-size: .9rem;
 }
 
 footer.copy a {
   color: #e1e1e1c0;
+}
+
+.light .copy a {
+  color: #1E1E1E90;
+}
+
+.light footer.copy {
+  text-align: center;
+  align-items: center;
+  color: #1e1e1e90;
+  font-size: .9rem;
 }
